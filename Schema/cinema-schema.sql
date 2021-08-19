@@ -1,5 +1,5 @@
 DROP DATABASE if exists cinema;
-CREATE TABLE cinema ;
+CREATE DATABASE cinema ;
 USE cinema ;
 
 CREATE TABLE films (
