@@ -1,6 +1,6 @@
 DROP DATABASE if exists cinema;
-CREATE TABLE cinema;
-USE cinema;
+CREATE TABLE cinema ;
+USE cinema ;
 
 CREATE TABLE films (
     film_id INT AUTO_INCREMENT,
