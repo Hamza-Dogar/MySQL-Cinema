@@ -5,7 +5,7 @@ USE cinema ;
 CREATE TABLE films (
     film_id INT AUTO_INCREMENT,
     film_name VARCHAR(50) NOT NULL,
-    screen BIT UNIQUE,
+    screen INT NOT NULL,
     screen_time DATETIME NOT NULL,
     luxury_seat BOOLEAN NOT NULL,
     seat SMALLINT NOT NULL,
