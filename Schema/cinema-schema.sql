@@ -27,6 +27,6 @@ CREATE TABLE tickets (
     fk_customer_id INT,
     film_time DATETIME NOT NULL,
     PRIMARY KEY (ticket_id),
-    FOREIGN KEY (fk_film_id) REFERENCES films(film_id)
+    FOREIGN KEY (fk_film_id) REFERENCES films(film_id),
     FOREIGN KEY (fk_customer_id) REFERENCES customers(customer_id)
 );
